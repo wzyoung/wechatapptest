@@ -6,7 +6,6 @@ App({
     console.log('App Show')
   },
   onHide: function () {
-    console.log("log","log")
     console.log('App Hide')
   },
   globalData: {
