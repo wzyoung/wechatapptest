@@ -5,7 +5,12 @@
     </view>
     <view class="page__bd">
         <view class="section tc">
-            <video src="http://flv.bn.netease.com/videolib3/1605/22/auDfZ8781/HD/auDfZ8781-mobile.mp4" binderror="videoErrorCallback"></video>
+            <video src="http://flv.bn.netease.com/videolib3/1605/22/auDfZ8781/HD/auDfZ8781-mobile.mp4"
+                   binderror="videoErrorCallback"></video>
+        </view>
+        <view class="section tc">
+            <video src="http://v.6.cn/739051"
+                   binderror="videoErrorCallback"></video>
         </view>
         <view class="section tc">
             <video src="{{src}}"></video>

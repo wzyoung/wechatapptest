@@ -1,13 +1,75 @@
+// Page({
+//   data: {
+//     audioAction: {
+//       method: 'pause'
+//     }
+//   },
+//   audioPlayed: function (e) {
+//     console.log('audio is played')
+//   },
+//   funerror: function (e) {
+//     console.log(e.detail.errMsg);
+//   }
+// })
+
 Page({
   data: {
-    audioAction: {
-      method: 'pause'
-    }
+    poster: 'http://pic.pimg.tw/pam86591/1408719752-3322564110_n.jpg',
+    name: 'Sugar',
+    author: 'Maroon 5'
   },
-  audioPlayed: function (e) {
-    console.log('audio is played')
+  audioPlay: function () {
+    this.setData({
+      action: {
+        method: 'play'
+      }
+    });
   },
-  funerror: function (e) {
-    console.log(e.detail.errMsg);
+  audioPause: function () {
+    this.setData({
+      action: {
+        method: 'pause'
+      }
+    });
+  },
+  audioPlaybackRateSpeedUp: function () {
+    this.setData({
+      action: {
+        method: 'setPlaybackRate',
+        data: 2//加快速度
+      }
+    });
+  },
+  audioPlaybackRateNormal: function () {
+    this.setData({
+      action: {
+        method: 'setPlaybackRate',
+        data: 1//加快速度
+      }
+    });
+  },
+  audioPlaybackRateSlowDown: function () {
+    this.setData({
+      action: {
+        method: 'setPlaybackRate',
+        data: 0.5//小于零放慢速度
+      }
+    });
+  },
+  audio14: function () {
+    this.setData({
+      action: {
+        method: 'setCurrentTime',
+        data: 14
+      }
+    });
+  },
+  audioStart: function () {
+    this.setData({
+      action: {
+        method: 'setCurrentTime',
+        data: 0
+      }
+    });
   }
 })

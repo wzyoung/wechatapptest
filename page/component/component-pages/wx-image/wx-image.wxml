@@ -5,22 +5,25 @@
     </view>
     <view class="page__bd">
         <view class="section section_gap">
-            <view class="section__title"> local image</view>
+            <view class="section__title">local image</view>
             <view class="section__ctn">
-                <image src="../../resources/pic.jpg"/>
+                <image src="../../resources/pic.jpg"  />
             </view>
         </view>
         <view class="section section_gap">
-            <view class="section__title"> internet image</view>
+            <view class="section__title">internet image</view>
             <view class="section__ctn">
-                <image src="http://img02.tooopen.com/images/20160603/tooopen_sy_164101489754.jpg" width="200"
+                <!--<image src="http://img02.tooopen.com/images/20160603/tooopen_sy_164101489754.jpg" width="200"
+                           height="130"  />
+                -->
+                <image src="http://wechatapptest-1253143360.costj.myqcloud.com/summer_sunset_scene-wallpaper-2880x1800.jpg" width="200"
                        height="130"/>
             </view>
         </view>
         <view class="section section_gap">
-            <view class="section__title"> error image</view>
+            <view class="section__title">error image</view>
             <view class="section__ctn">
-                <image src="error url" binderror="imageError"/>
+                <image src="error url" binderror="imageError"  />
             </view>
         </view>
     </view>
