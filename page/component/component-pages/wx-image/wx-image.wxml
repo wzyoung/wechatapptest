@@ -6,9 +6,9 @@
     <view class="page__bd">
         <view class="section section_gap">
             <view class="section__title">local image</view>
-            <view class="section__ctn">
+            <!--<view class="section__ctn">
                 <image src="../../resources/pic.jpg"  />
-            </view>
+            </view>-->
         </view>
         <view class="section section_gap">
             <view class="section__title">internet image</view>
